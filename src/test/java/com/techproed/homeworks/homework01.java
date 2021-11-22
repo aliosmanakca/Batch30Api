@@ -35,13 +35,13 @@ public class homework01 extends HerokuAppTestBase {
                 get("/{parametre1}/{parametre2}");
         response.prettyPrint();
 
-        LocalTime now2 = LocalTime.now();
+        LocalDateTime now2 = LocalDateTime.now();
         System.out.println(now2);
 
-        Duration dur = Duration.between(now2,now1);
+        Duration dur = Duration.between(now1,now2);
         System.out.println(dur);
 
-        long saniye = dur.getSeconds()*(-1);
+        long saniye = dur.toSeconds();
         System.out.println(saniye);
 
         Assert.assertTrue("5 saniyeden uzun suruyor",saniye<=5);
