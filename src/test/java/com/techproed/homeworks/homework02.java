@@ -1,8 +1,13 @@
 package com.techproed.homeworks;
 
 public class homework02 {
-    // Siteyi açınız. http://opencart.abstracta.us/index.php?route=account/login ,
-    // login yapiniz Email: asd@gmail.com   password : 123qweasd
-    // Search fonksiyonunu kullanarak
-    // Mac,ipod ve samsung icin Dataprovider ile yapınız.
+    /*
+        https://jsonplaceholder.typicode.com/posts/44 url'ine bir GET request yolladigimizda
+        donen Response'in
+        status code'unun 200,
+        ve content type'inin Aplication.JSON,
+        ve response body'sinde bulunan userId'nin 5,
+        ve response body'sinde bulunan title'in "optio dolor molestias sit"
+        oldugunu test edin.
+         */
 }
