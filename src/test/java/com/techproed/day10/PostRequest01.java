@@ -63,7 +63,8 @@ olduğunu test edin
 
         //JsonPath
         JsonPath json=response.jsonPath();
-        Assert.assertEquals(expectedDataMap.get("status"),json.getString("status"));
+        Assert.assertEquals(expectedDataMap.get("status"),json.get("status"));
+        //json dan sonra get yada getString yazmak farketmiyor
         Assert.assertEquals(expectedDataMap.get("message"),json.getString("message"));
 
 
