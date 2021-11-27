@@ -14,6 +14,25 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class GetRequest11TestData extends JsonPlaceHolderTestBase {
 
+    /*
+https://jsonplaceholder.typicode.com/todos/2 url ‘ine istek gönderildiğinde,
+ Dönen response un
+ Status kodunun 200, dönen body de,
+ "completed": değerinin false
+"title”: değerinin “quis ut nam facilis et officia qui”
+"userId" sinin 1 ve
+header değerlerinden
+ "Via" değerinin “1.1 vegur” ve
+ "Server" değerinin “cloudflare” olduğunu test edin…
+ */
+    /*
+    url oluştur
+    --expected data
+    request gönder
+   -- actual data
+    assertion
+     */
+
     @Test
     public void test() {
 

@@ -59,7 +59,7 @@ public class GetRequest13 extends DummyTestBase {
         // 5. Çalışan isminin "Airi Satou" olduğunu
 
         Assert.assertEquals(expectedDataMap.get("besincicalisan"),
-                ((Map)((List)actualDataMap.get("data")).get(4)).get("employee_name"));
+                ( (Map) ( (List)actualDataMap.get("data") ).get(4) ).get("employee_name") );
 
         //çalışan sayısının 24 olduğunu,
 

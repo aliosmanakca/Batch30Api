@@ -2,7 +2,9 @@ package com.techproed.testData;
 
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class JsonPlaceHolderTestData {
@@ -65,6 +67,25 @@ public class JsonPlaceHolderTestData {
 
         expected.put("userId",5);
         expected.put("title","optio dolor molestias sit");
+
+        return expected;
+    }
+
+
+    public HashMap<String, Object> dataHomework03(){
+
+        List<Integer> idler = new ArrayList<>();
+        idler.add(111);
+        idler.add(121);
+        idler.add(131);
+
+        HashMap<String,Object> expected = new HashMap<>();
+        expected.put("statusCode",200);
+        expected.put("uzun","dignissimos quo nobis earum saepe");
+        expected.put("dorduncu","et porro tempora");
+        expected.put("sonuncu","ipsam aperiam voluptates qui");
+        expected.put("arananIdler",idler);
+        expected.put("titleSayisi",200);
 
         return expected;
     }
