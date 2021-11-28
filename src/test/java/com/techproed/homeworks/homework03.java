@@ -58,6 +58,7 @@ public class homework03 extends JsonPlaceHolderTestBase {
 
         // 2-De Serialization yontemi
         List<HashMap<String,Object>> actualDataList = response.as(List.class); //burda bize list dondurdugu icin boyle yaptim
+        //map dondurseydi map olacakti
 
         //And there should be 200 "title"
         Assert.assertEquals(expectedData.get("titleSayisi"), actualDataList.size() );

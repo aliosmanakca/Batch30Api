@@ -87,7 +87,20 @@ olduğunu test edin.
         // expectedData.put("data",data);
         expectedData.put("message","Successfully! Record has been added.");
         return expectedData;
+    }
 
+    public HashMap<String, Object> dataHomework04(){
+
+        HashMap<String,Object> data = new HashMap<>();
+
+        data.put("status","success");
+        data.put("id",3);
+        data.put("employee_name","Ashton Cox");
+        data.put("employee_salary",86000);
+        data.put("employee_age",66);
+        data.put("message","Successfully! Record has been fetched.");
+
+        return data;
     }
 
 }
